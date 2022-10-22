@@ -4,6 +4,8 @@ import Cover from './componentes/cover/Cover';
 import Navbar from './navbar/Navbar';
 import Abauto from './componentes/about/Abouto';
 import Slider from './componentes/slider/Slider';
+import Info from './componentes/info/info';
+import Footer from './componentes/footer/Footer';
 
 function App() {
 const [scrollHeight, setScrollHeight] = useState(0)
@@ -22,6 +24,8 @@ useEffect(()=>{
       <Cover/>
       <Abauto/>
       <Slider/>   
+      <Info/>
+      <Footer/>
     </div>
   );
 }

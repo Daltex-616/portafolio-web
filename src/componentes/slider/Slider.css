@@ -44,3 +44,33 @@
     font-size: 22px;
     padding: 20px 0 20px 10px;
 }
+.BrainhubCarousel__arrows {
+    background-color: #fff !important;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.BrainhubCarousel__arrows >span{
+    border-color: #000 !important;
+}
+.BrainhubCarousel__arrows:hover{
+    background-color: #fff !important;
+
+}
+.BrainhubCarousel__arrows:hover > span{
+    border-color: #000 !important;
+}
+
+@media only screen and (max-width: 960px){
+    .carusel-container{
+        flex-direction: column;
+    }
+    .carousel-title{
+        width: 100%;
+        text-align: center;
+        padding: 50px 0 50px 0;
+    }
+    .silde-container{
+        width: 100%;
+    }
+}
